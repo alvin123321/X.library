@@ -1,0 +1,20 @@
+<div @fade class="loading_content" style="flex-direction: column;">
+  <div class="bouncing_area">
+    <span>{{ bouncingIcon }}</span>
+    <span style="--delay: 0.1s;">{{ bouncingIcon }}</span>
+    <span style="--delay: 0.3s;">{{ bouncingIcon }}</span>
+    <span style="--delay: 0.4s;">{{ bouncingIcon }}</span>
+    <span style="--delay: 0.5s;">{{ bouncingIcon }}</span>
+  </div>
+  <div class="option">
+    <p>Select Me: &nbsp;</p>
+    <div class="select_cursor icon">
+      <p (click)="switchIcon('💩')">💩&nbsp;</p>
+      <p (click)="switchIcon('🍂')">🍂&nbsp;</p>
+      <p (click)="switchIcon('⭐')">⭐&nbsp;</p>
+      <p (click)="switchIcon('🎵')">🎵&nbsp;</p>
+      <p (click)="switchIcon('🖤')">🖤&nbsp;</p>
+    </div>
+  </div>
+</div>
+<h1>BOUNCING LOADER ANIMATION</h1>

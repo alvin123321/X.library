@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-: #c9af98 !important;
+  font-weight: bold;
+  color: rgb(26, 23, 23);
+  text-align: center;
+  margin-top: 2rem;
+  height: 80%;
+}
+
+.title {
+  letter-spacing: 3rem;
+  text-align: center;
+  font-size: 3em;
+  margin: 13px;
+  font-family: moon-bold;
+}
+
+.box {
+  margin: auto;
+  background: #c9af98;
+  padding: 1px;
+  width: 95%;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  transition: 1s all;
+}
+
+.box-wrap {
+  margin-top: 49px;
+}
+
+.box-wrap:hover .box {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+  cursor: none;
+}
+.box-wrap:hover .box:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+  color: white;
+  background-color: #3a4660;
+}
+
+.content {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
