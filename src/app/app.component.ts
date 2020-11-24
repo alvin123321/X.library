@@ -8,7 +8,4 @@ export class AppComponent {
   title = 'x-library';
   loader = 'donut';
 
-  switchLoader(loaderName: string) {
-    this.loader = loaderName;
-  }
 }

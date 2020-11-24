@@ -9,6 +9,8 @@ import { BouncingLoaderComponent } from './loader/bouncing-loader/bouncing-loade
 import { NewtonLoaderComponent } from './loader/newton-loader/newton-loader.component';
 import { DiceyLoaderComponent } from './loader/dicey-loader/dicey-loader.component';
 import { BarLoaderComponent } from './loader/bar-loader/bar-loader.component';
+import { EightBitLoaderComponent } from './loader/eight-bit-loader/eight-bit-loader.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { BarLoaderComponent } from './loader/bar-loader/bar-loader.component';
     BouncingLoaderComponent,
     NewtonLoaderComponent,
     DiceyLoaderComponent,
-    BarLoaderComponent
+    BarLoaderComponent,
+    EightBitLoaderComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,

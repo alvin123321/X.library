@@ -23,7 +23,7 @@ p {
 }
 
 html {
-  height: 100vh;
+  height: 95vh;
   background-color: #c9af98;
 }
 body {
@@ -39,7 +39,7 @@ h1 {
 
 .loading_content {
   height: 60%;
-  padding-top: 15%;
+  padding-top: 180px;
   box-sizing: border-box;
 }
 

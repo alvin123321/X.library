@@ -1,0 +1,37 @@
+<div class="content">
+  <app-donut-loader class="loader" *ngIf="loader == 'donut'"></app-donut-loader>
+  <app-eight-bit-loader
+    class="loader"
+    *ngIf="loader == 'eight-bit'"
+  ></app-eight-bit-loader>
+  <app-dicey-loader class="loader" *ngIf="loader == 'dicey'"></app-dicey-loader>
+  <app-bar-loader class="loader" *ngIf="loader == 'bar'"></app-bar-loader>
+  <app-newton-loader
+    class="loader"
+    *ngIf="loader == 'newton'"
+  ></app-newton-loader>
+  <app-bouncing-loader
+    class="loader"
+    *ngIf="loader == 'bouncing'"
+  ></app-bouncing-loader>
+</div>
+<div>
+  <button (click)="switchLoader('donut')" class="btn btn-outline-secondary">
+    DONUT
+  </button>
+  <button (click)="switchLoader('eight-bit')" class="btn btn-outline-secondary">
+    EIGHT-BIT
+  </button>
+  <button (click)="switchLoader('bar')" class="btn btn-outline-secondary">
+    BAR
+  </button>
+  <button (click)="switchLoader('dicey')" class="btn btn-outline-secondary">
+    DICEY
+  </button>
+  <button (click)="switchLoader('newton')" class="btn btn-outline-secondary">
+    NEWTON
+  </button>
+  <button (click)="switchLoader('bouncing')" class="btn btn-outline-secondary">
+    BOUNCING
+  </button>
+</div>
